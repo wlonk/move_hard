@@ -133,11 +133,15 @@ PIPELINE_CSS = {
         'source_filenames': (
             'css/bootstrap.css',
             'css/bootstrap-theme.css',
-            'css/main.css',
+            'css/main.less',
         ),
         'output_filename': 'css/all.css',
     },
 }
+
+PIPELINE_COMPILERS = (
+    'pipeline.compilers.less.LessCompiler',
+)
 
 PIPELINE_JS = {
     'libraries': {
