@@ -131,8 +131,8 @@ STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
 PIPELINE_CSS = {
     'all': {
         'source_filenames': (
-            'css/bootstrap.css',
-            'css/bootstrap-theme.css',
+            'css/vendor/bootstrap.css',
+            'css/vendor/bootstrap-theme.css',
             'css/main.less',
         ),
         'output_filename': 'css/all.css',
