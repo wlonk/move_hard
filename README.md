@@ -18,4 +18,3 @@ Setup:
 
  - Set up Travis-CI
  - Stub tests
- - Set up Ember frontend?
