@@ -1,0 +1,13 @@
+<h1>WAT</h1>
+
+<ul>
+  {{#each move in controller}}
+    <li>
+      {{#link-to 'move' move}}
+        {{move.title}}
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>
+
+{{input type="text" id="new-move" placeholder="When you &hellip;" value=newTitle action="createMove"}}

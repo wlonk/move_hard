@@ -140,13 +140,38 @@ PIPELINE_CSS = {
 }
 
 PIPELINE_JS = {
-    'all': {
+    'libraries': {
         'source_filenames': (
             'js/vendor/modernizr.js',
             'js/vendor/jquery.js',
             'js/vendor/bootstrap.js',
-            'js/main.js',
+            'js/vendor/handlebars.js',
+            'js/vendor/ember.js',
+            'js/vendor/ember-data.js',
+            'js/vendor/ember-data-django-rest-adapter.js',
+            'js/vendor/localstorage_adapter.js',
         ),
-        'output_filename': 'js/all.js',
+        'output_filename': 'js/libraries.js',
+    },
+    'templates': {
+        'source_filenames': (
+            'js/templates/*.hbs',
+        ),
+        'output_filename': 'js/templates.js'
+    },
+    'application': {
+        'source_filenames': (
+            'js/main.js',
+            'js/router.js',
+            'js/models/*.js',
+            'js/controllers/*.js',
+            'js/routes/*.js',
+        ),
+        'output_filename': 'js/application.js'
     }
 }
+
+PIPELINE_TEMPLATE_EXT = '.hbs'
+PIPELINE_TEMPLATE_FUNC = 'Ember.Handlebars.compile'
+PIPELINE_TEMPLATE_NAMESPACE = 'window.Ember.TEMPLATES'
+PIPELINE_TEMPLATE_SEPARATOR = '/'
