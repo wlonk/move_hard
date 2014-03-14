@@ -133,7 +133,7 @@ PIPELINE_CSS = {
         'source_filenames': (
             'css/vendor/bootstrap.css',
             'css/vendor/bootstrap-theme.css',
-            'css/main.less',
+            'less/main.less',
         ),
         'output_filename': 'css/all.css',
     },
