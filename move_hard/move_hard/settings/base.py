@@ -159,7 +159,7 @@ PIPELINE_JS = {
     },
     'templates': {
         'source_filenames': (
-            'js/templates/*.hbs',
+            'templates/*.hbs',
         ),
         'output_filename': 'js/templates.js'
     },
