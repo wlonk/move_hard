@@ -6,6 +6,6 @@ admin.autodiscover()
 
 urlpatterns = patterns('',  # NOQA
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^api/v1/', include('api1.urls')),
+    url(r'^api/v1/', include('api.urls')),
     url(r'^', TemplateView.as_view(template_name='base.html')),
 )

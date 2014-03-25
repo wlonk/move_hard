@@ -72,10 +72,11 @@ DJANGO_APPS = (
 THIRD_PARTY_APPS = (
     'south',
     'pipeline',
+    'rest_framework',
 )
 
 LOCAL_APPS = (
-    'api1',
+    'api',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
