@@ -1,7 +1,7 @@
 var App = Ember.Application.create();
 
-App.ApplicationAdapter = DS.LSAdapter.extend({
-  namespace: 'moves-emberjs'
+App.ApplicationAdapter = DS.DjangoRESTAdapter.extend({
+  namespace: 'api/v1'
 });
 
 App.Router.reopen({

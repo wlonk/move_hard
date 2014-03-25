@@ -181,3 +181,9 @@ PIPELINE_TEMPLATE_EXT = '.hbs'
 PIPELINE_TEMPLATE_FUNC = 'Ember.Handlebars.compile'
 PIPELINE_TEMPLATE_NAMESPACE = 'window.Ember.TEMPLATES'
 PIPELINE_TEMPLATE_SEPARATOR = '/'
+
+
+# Django REST Framework
+REST_FRAMEWORK = {
+    'FILTER_BACKEND': 'rest_framework.filters.DjangoFilterBackend'
+}
