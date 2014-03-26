@@ -1,4 +1,7 @@
 App.Move = DS.Model.extend({
-  title: DS.attr('string'),
-  body: DS.attr('string')
+  name: DS.attr('string'),
+  body: DS.attr('string'),
+  created: DS.attr(),
+  user: DS.attr(),
+  game: DS.attr()
 });

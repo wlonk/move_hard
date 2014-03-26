@@ -155,7 +155,7 @@ PIPELINE_JS = {
             'js/vendor/ember.js',
             'js/vendor/ember-data.js',
             'js/vendor/ember-data-django-rest-adapter.js',
-            'js/vendor/localstorage_adapter.js',
+            # 'js/vendor/localstorage_adapter.js',
         ),
         'output_filename': 'js/libraries.js',
     },
@@ -168,6 +168,8 @@ PIPELINE_JS = {
     'application': {
         'source_filenames': (
             'js/main.js',
+            'js/adapters/application.js',
+            'js/serializers/application.js',
             'js/router.js',
             'js/models/*.js',
             'js/controllers/*.js',
