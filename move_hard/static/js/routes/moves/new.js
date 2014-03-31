@@ -5,5 +5,8 @@ App.MovesNewRoute = Ember.Route.extend({
   setupController: function (controller, model) {
     controller.set('content', model);
     controller.set('model', model);
+  },
+  deactivate: function (transition) {
+    this.modelFor("movesNew").rollback();
   }
 });

@@ -1,5 +1,7 @@
 App.Router.map(function() {
 
+  this.route('index', {path: '/'});
+
   this.resource('moves', {path: '/moves'}, function () {
     this.route('new', {path: '/new'});
   });
