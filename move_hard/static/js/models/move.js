@@ -8,7 +8,7 @@ App.Move = DS.Model.extend({
   renderedContent: function () {
     var body = this.get('body');
     if (!!body) {
-      var converter = new Showdown.converter();
+      var converter = Markdown.getSanitizingConverter();
       return converter.makeHtml(this.get('body'));  // @todo: this can totally cause script injection shenanigans. Scrub it to safe tags.
     } else {
       return ''
