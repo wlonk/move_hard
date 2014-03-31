@@ -176,6 +176,7 @@ PIPELINE_JS = {
             'js/models/*.js',
             'js/controllers/moves/*.js',
             'js/routes/*.js',
+            'js/routes/moves/*.js',
         ),
         'output_filename': 'js/application.js'
     }
