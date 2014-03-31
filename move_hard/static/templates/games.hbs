@@ -1,0 +1,11 @@
+<h1>All the games!</h1>
+
+<ul>
+  {{#each game in controller}}
+    <li>
+      {{#link-to 'game' game}}
+        {{game.name}}
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>

@@ -1,0 +1,11 @@
+<h1>All the users!</h1>
+
+<ul>
+  {{#each user in controller}}
+    <li>
+      {{#link-to 'user' user}}
+        {{user.username}}
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>
