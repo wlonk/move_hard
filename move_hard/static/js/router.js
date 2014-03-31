@@ -1,6 +1,14 @@
 App.Router.map(function() {
-  this.resource('moves', { path: '/moves' });
-  this.resource('move', {path: '/moves/:move_id'})
+
+  this.resource('moves', {path: '/moves'}, function () {
+    this.route('new', {path: '/new'});
+  });
+  this.resource('move', {path: '/moves/:move_id'});
+
+  this.resource('games', {path: '/games'});
+
+  this.resource('users', {path: '/users'});
+
 });
 
 App.Router.reopen({

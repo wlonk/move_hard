@@ -151,6 +151,7 @@ PIPELINE_JS = {
             'js/vendor/modernizr.js',
             'js/vendor/jquery.js',
             'js/vendor/bootstrap.js',
+            'js/vendor/showdown.js',
             'js/vendor/handlebars.js',
             'js/vendor/ember.js',
             'js/vendor/ember-data.js',
@@ -162,6 +163,7 @@ PIPELINE_JS = {
     'templates': {
         'source_filenames': (
             'templates/*.hbs',
+            'templates/moves/*.hbs',
         ),
         'output_filename': 'js/templates.js'
     },
@@ -172,7 +174,7 @@ PIPELINE_JS = {
             'js/serializers/application.js',
             'js/router.js',
             'js/models/*.js',
-            'js/controllers/*.js',
+            'js/controllers/moves/*.js',
             'js/routes/*.js',
         ),
         'output_filename': 'js/application.js'

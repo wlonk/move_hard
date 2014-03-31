@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"inser",
+				"insert_value	statement"
+			],
+			[
+				"split",
+				"split_items	statement"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"feedb",
+				"feedback_step"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"PICK",
+				"PICKBAN_REVEAL_SECONDS"
+			],
+			[
+				"pick",
+				"pickban-reveal"
+			],
+			[
+				"steam",
+				"steam_id_validator"
+			],
+			[
+				"progre",
+				"progressbar"
+			],
+			[
+				"progres",
+				"progressbar_inner"
+			],
+			[
+				"pro",
+				"progressbar_inner"
+			],
+			[
+				"pgress",
+				"progressbar"
+			],
+			[
+				"UserProf",
+				"UserProfileFactory	class"
+			],
+			[
+				"Play",
+				"PlayerFactory	class"
+			],
+			[
+				"assert",
+				"assert_css_count"
+			],
+			[
+				"asser",
+				"assert_css_count"
+			],
+			[
+				"impl",
+				"implicit_wait"
+			],
+			[
+				"Resta",
+				"RestaurantCombinedSearch"
+			],
+			[
+				"dishes",
+				"dishes_list"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"navbar",
+				"navbar-default-color"
+			],
+			[
+				"show",
+				"showAddList"
+			],
+			[
+				"data",
+				"data-id"
+			],
+			[
+				"add",
+				"addToList"
+			],
+			[
+				"api",
+				"api_uri"
+			],
+			[
+				"addT",
+				"addToListCancel"
+			],
+			[
+				"resta",
+				"restaurant_api_uri"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 225.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"requi",
+				"Set Syntax: requirements.txt"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git merge",
+				"Git: Merge Branch"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"lor",
+				"Django: List Migrations"
+			],
+			[
+				"n",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"shell",
+				"Django: Shell"
+			],
+			[
+				"virtua",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"test",
+				"Django: Test"
+			],
+			[
+				"django",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"setv",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"set v",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"set vir",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"git puh",
+				"Git: Push"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"package control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/heroes/index.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/css/project.less",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/js/project.js",
+		"/Users/kit/code/datadrivendota/.git/COMMIT_EDITMSG",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/heroes/ability.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/views.py",
+		"/Users/kit/code/datadrivendota/heroku_static_pages/error.html",
+		"/Users/kit/code/datadrivendota/npc_heroes.json",
+		"/Users/kit/code/datadrivendota/datadrivendota/items/templates/items/detail.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/heroes/detail.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/components.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/css.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/getting-started.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/javascript.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/admin.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/models.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/css/override_variables.less",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/zinnia/opensearch.xml",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/css/custom_bootstrap_compilation.less",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/css/custom_bootstrap_compilation.css",
+		"/Users/kit/code/datadrivendota/CONTRIBUTORS.txt",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/customize.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/__init__.py",
+		"/Users/kit/code/datadrivendota/README.rst",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/js/d3/test/math/transform-rotate-origin-test.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templates/players/detail.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templates/players/match_summary.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/js/d3/test/arrays/map-test.js",
+		"/Users/kit/code/datadrivendota/docs/Makefile",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/templates/matches/detail.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/__init__.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/migrations/0005_auto__del_field_match_match_validity__add_field_match_validity.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/commands/scrape_recent_matches.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/views.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templatetags/player_extras.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/payments/pay_base.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/less/pager.less",
+		"/Users/kit/code/datadrivendota/LICENSE.txt",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/css/project.css",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/admin/zinnia/widgets/content_stats.html",
+		"/Users/kit/code/datadrivendota/.git/GHI_ISSUE",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templates/players/management.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/datadrivendota/views.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/views.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/heroes/form.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/_image_form_embed.html",
+		"/Users/kit/code/datadrivendota/fabfile.py",
+		"/Users/kit/code/datadrivendota/.gitignore",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/payments/_subscribe_form.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/management/commands/generate_static_error_pages.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/datadrivendota/settings/base.py",
+		"/Users/kit/code/datadrivendota/ghostdriver.log",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/payments/subscribe.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/js/eldarion-ajax.min.js",
+		"/Users/kit/code/datadrivendota/datadrivendota/datadrivendota/s3utils.py",
+		"/Users/kit/code/datadrivendota/.env",
+		"/Users/kit/code/datadrivendota/Procfile",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/js/popover.js",
+		"/Users/kit/code/datadrivendota/datadrivendota/templates/payments/_cancel_form.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/bootstrap/package.json",
+		"/Users/kit/code/are_there_spiders/are_there_spiders/are_there_spiders/custom_storages.py",
+		"/Users/kit/Desktop/cors.json",
+		"/Users/kit/Desktop/co",
+		"/Users/kit/.virtualenvs/datadrivendota/lib/python2.7/site-packages/corsheaders/middleware.py",
+		"/Users/kit/.bashrc",
+		"/Users/kit/.s3cfg",
+		"/Users/kit/.virtualenvs/datadrivendota/lib/python2.7/site-packages/corsheaders/defaults.py",
+		"/Users/kit/code/datadrivendota/requirements/base.txt",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/file_management.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/static/js/polychart2.standalone.js",
+		"/Users/kit/code/datadrivendota/datadrivendota.sublime-project",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/heroes/base.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templates/players/base.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templates/players/form.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/templates/players/index.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/templates/matches/base.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/templates/matches/follow.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/templates/matches/form.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/templates/matches/index.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/items/views.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/items/templates/item_index.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/items/templates/item_detail.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/items/templates/index.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/speedtest.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/hero_base.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/heroes/templates/index.html",
+		"/Users/kit/code/datadrivendota/datadrivendota/guilds/views.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/views.py",
+		"/Users/kit/code/datadrivendota/integration_tests.py",
+		"/Users/kit/code/datadrivendota/docs/conf.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/manage.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/tests.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/r.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/models.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/exceptions.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/charts.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/templatetags/intercom_extras.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/templatetags/steam_extras.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/utils/templatetags/navigation_extras.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/validators.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/urls.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/tests.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/test_mixins.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/r.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/pipeline.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/models.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/json_data.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/forms.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/form_fields.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/admin.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/__init__.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/players/management/commands/send_invite.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/urls.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/tests.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/test_mixins.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/r.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/models.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/json_data.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/forms.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/form_fields.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/admin.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/test_data.json",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/tasks/valve_api_calls.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/tasks/tasks.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/tasks/celerytest.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/tasks/celeryexperiment.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/commands/update_persona_names.py",
+		"/Users/kit/code/datadrivendota/datadrivendota/matches/management/commands/scrapeIdHistory.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class-selector",
+			"p",
+			"lore",
+			"p",
+			"lore",
+			"p",
+			"ability",
+			"roles",
+			"yellow",
+			"green",
+			"red",
+			"dossier",
+			"text",
+			"role",
+			"roles",
+			"timeline",
+			"POST",
+			"GET",
+			"POST",
+			"static",
+			"\\.ajax",
+			"ajax",
+			"return ",
+			"ajax",
+			"submit",
+			"KEY",
+			"corsheaders",
+			"default",
+			"CORS",
+			"default",
+			"hero_form",
+			"DetailView",
+			" = ",
+			"summary",
+			"required",
+			"help_text",
+			"URL",
+			" = ",
+			"help_text",
+			"\\n\\n",
+			"# OUT.*",
+			"utils",
+			"restart",
+			"page-tour",
+			"tour",
+			"match_list",
+			"paginator",
+			"get_playermatchsummaries_for_player",
+			"TEMPLATE_",
+			"heroku_run",
+			"str",
+			"item",
+			"dev",
+			"-90deg",
+			"roboto",
+			"button",
+			"purge",
+			"table",
+			"item",
+			"thumbnail",
+			"infobox",
+			"overlayer",
+			"thumbnail",
+			"name",
+			"item",
+			"h2",
+			"error",
+			"(\\w+)=(.*)",
+			"barWidth",
+			"domain",
+			"error",
+			"nose",
+			"get_css_count",
+			"css_count",
+			"selenium",
+			"IntegrationTests",
+			"li.parent-group ul li",
+			"neighbo",
+			"todo",
+			"class Site",
+			"todo",
+			"city",
+			"boston",
+			"Boston",
+			"boston",
+			"self.stderr.write",
+			"self.stdout.write",
+			"print",
+			"parse_neighborhoods",
+			"OCCASION_NAMES",
+			"lat_lng",
+			"login",
+			"middleware",
+			"success",
+			"offset",
+			"default",
+			"f6921d",
+			"default",
+			"success",
+			"default",
+			"add-restaurant-to-list",
+			"list_view",
+			"UserCreationForm",
+			"api_uri",
+			"select\\b",
+			"select2",
+			"makeMaskCss",
+			"input",
+			"openAddToList",
+			"addToList",
+			"alert",
+			"TEST",
+			"AUTHORIZATION_URL",
+			"params",
+			"requests",
+			"FourSquare",
+			"ADMIN_MEDIA_PREFIX",
+			"STATIC_URL",
+			"S3_URL",
+			"get_env_setting",
+			"MIDDLEWARE",
+			"class ModelForm",
+			"pdb",
+			"save_form_data",
+			"m2m",
+			"autocomplete",
+			"get_env_setting",
+			"STATIC"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"=",
+			"\\n",
+			"",
+			"maintenance",
+			"\"\\1\": \"\\2\","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "move_hard.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"project.less",
+				"datadrivendota/static/css/project.less"
+			],
+			[
+				"project.js",
+				"datadrivendota/static/js/project.js"
+			],
+			[
+				"heroes/index",
+				"datadrivendota/heroes/templates/heroes/index.html"
+			],
+			[
+				"heroes/abil",
+				"datadrivendota/heroes/templates/heroes/ability.html"
+			],
+			[
+				"overri",
+				"datadrivendota/static/css/override_variables.less"
+			],
+			[
+				"custom",
+				"datadrivendota/static/css/custom_bootstrap_compilation.less"
+			],
+			[
+				"heroes/views",
+				"datadrivendota/heroes/views.py"
+			],
+			[
+				"heroes/detail",
+				"datadrivendota/heroes/templates/heroes/detail.html"
+			],
+			[
+				"match_summar",
+				"datadrivendota/players/templates/players/match_summary.html"
+			],
+			[
+				"matches/detail",
+				"datadrivendota/matches/templates/matches/detail.html"
+			],
+			[
+				"players/detail",
+				"datadrivendota/players/templates/players/detail.html"
+			],
+			[
+				"css",
+				"datadrivendota/static/css/project.css"
+			],
+			[
+				"players/views",
+				"datadrivendota/players/views.py"
+			],
+			[
+				"generat",
+				"datadrivendota/utils/management/commands/generate_static_error_pages.py"
+			],
+			[
+				"subscr",
+				"datadrivendota/templates/payments/_subscribe_form.html"
+			],
+			[
+				"subscribe",
+				"datadrivendota/templates/payments/_subscribe_form.html"
+			],
+			[
+				"eldar",
+				"datadrivendota/static/js/eldarion-ajax.min.js"
+			],
+			[
+				"payments/sub",
+				"datadrivendota/templates/payments/subscribe.html"
+			],
+			[
+				"trav",
+				".travis.yml"
+			],
+			[
+				"env",
+				".env"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

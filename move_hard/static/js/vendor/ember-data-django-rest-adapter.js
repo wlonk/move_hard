@@ -1,1 +1,1 @@
-ember-data-django-rest-adapter.0.13.1.js
+ember-data-django-rest-adapter.1.0.2.js

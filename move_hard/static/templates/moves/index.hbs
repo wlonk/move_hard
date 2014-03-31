@@ -4,12 +4,10 @@
   {{#each move in controller}}
     <li>
       {{#link-to 'move' move}}
-        {{move.title}}
+        {{move.name}}
       {{/link-to}}
     </li>
   {{/each}}
 </ul>
 
-<div>
-  When you&hellip; {{input type="text" id="new-move" value=newTitle action="createMove"}}
-</div>
+{{#link-to 'moves.new'}}new{{/link-to}}

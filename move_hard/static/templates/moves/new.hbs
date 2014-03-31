@@ -1,0 +1,20 @@
+<div class="col-md-6">
+  <form role="form" {{action 'save' on='submit'}}>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input id="name" class="form-control" type="text" value=name}}
+    </div>
+    <div class="form-group">
+      <label for="body">Body</label>
+      {{textarea id="body" class="form-control" value=body cols=80 rows=20}}
+    </div>
+    {{input type="submit" class="btn btn-default"}}
+  </form>
+</div>
+<div class="col-md-6">
+  <h2>{{name}}</h2>
+
+  <div class="body">
+    {{{renderedContent}}}
+  </div>
+</div>
