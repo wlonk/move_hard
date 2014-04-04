@@ -9,7 +9,7 @@ App.Move = DS.Model.extend({
     var body = this.get('body');
     if (!!body) {
       var converter = Markdown.getSanitizingConverter();
-      return converter.makeHtml(this.get('body'));  // @todo: this can totally cause script injection shenanigans. Scrub it to safe tags.
+      return converter.makeHtml(this.get('body'));
     } else {
       return ''
     }
