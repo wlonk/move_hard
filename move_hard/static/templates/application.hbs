@@ -7,6 +7,18 @@
         <li>{{#link-to 'games' }}Games{{/link-to}}</li>
         <li>{{#link-to 'users' }}Users{{/link-to}}</li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+      {{#with controllers.auth}}
+        <li>{{#if hasValidToken}}
+          <span class="navbar-text">
+            ({{model.username}})
+            <a href="#" {{action 'logout'}}>Logout</a>
+          </span>
+        {{else}}
+          {{#link-to 'auth'}}Login{{/link-to}}
+        {{/if}}</li>
+      {{/with}}
+      </ul>
     </div>
   </nav>
   <div class="container">

@@ -1,12 +1,33 @@
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 
-from rest_framework import viewsets
+from rest_framework import (
+    status,
+    views,
+    viewsets,
+)
+from rest_framework.response import Response
 
-from .models import Move, Game
+from .models import (
+    Game,
+    Move,
+)
+from .serializers import (
+    UserSerializer,
+    UserWithTokenSerializer
+)
+
+
+class AuthenticateView(views.APIView):
+    def post(self, request):
+        serializer = UserWithTokenSerializer(data=request.DATA)
+        if serializer.is_valid():
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class UsersViewSet(viewsets.ModelViewSet):
-    model = User
+    model = get_user_model()
+    serializer_class = UserSerializer
 
 
 class MovesViewSet(viewsets.ModelViewSet):

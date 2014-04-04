@@ -73,6 +73,7 @@ THIRD_PARTY_APPS = (
     'south',
     'pipeline',
     'rest_framework',
+    'rest_framework.authtoken',
 )
 
 LOCAL_APPS = (
@@ -150,6 +151,7 @@ PIPELINE_JS = {
         'source_filenames': (
             'js/vendor/modernizr.js',
             'js/vendor/jquery.js',
+            'js/vendor/jquery.cookie.js',
             'js/vendor/bootstrap.js',
             'js/vendor/Markdown.Converter.js',
             'js/vendor/Markdown.Sanitizer.js',
@@ -174,6 +176,7 @@ PIPELINE_JS = {
             'js/serializers/application.js',
             'js/router.js',
             'js/models/*.js',
+            'js/controllers/*.js',
             'js/controllers/moves/*.js',
             'js/routes/*.js',
             'js/routes/moves/*.js',
@@ -190,5 +193,9 @@ PIPELINE_TEMPLATE_SEPARATOR = '/'
 
 # Django REST Framework
 REST_FRAMEWORK = {
-    'FILTER_BACKEND': 'rest_framework.filters.DjangoFilterBackend'
+    'FILTER_BACKEND': 'rest_framework.filters.DjangoFilterBackend',
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    )
 }
