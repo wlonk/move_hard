@@ -22,7 +22,7 @@ App.Router.reopen({
 });
 
 App.ApplicationRoute = Ember.Route.extend({
-  init: function() {
+  init: function () {
     this._super();
     this.controllerFor('auth').set('token', localStorage.moveHard_auth_token);
     this.controllerFor('auth').set('user_id', localStorage.moveHard_user_id);
@@ -30,11 +30,19 @@ App.ApplicationRoute = Ember.Route.extend({
     this.controllerFor('auth').setCurrentUser();
   },
   actions: {
-    logout: function() {
+    logout: function () {
       App.reset();  // This is causing an error on logout.
       this.controllerFor('auth').set('token', null);
       this.controllerFor('auth').set('user_id', null);
       this.transitionTo('index');
+    }
+  }
+});
+
+App.RestrictedRoute = Ember.Route.extend({
+  beforeModel: function (transition) {
+    if (!this.controllerFor('auth').get('hasValidToken')) {
+      this.transitionTo('auth');
     }
   }
 });
