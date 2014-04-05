@@ -1,7 +1,7 @@
 App.MovesNewController = Ember.ObjectController.extend({
   actions: {
     save: function () {
-      var _this = this;
+      var self = this;
       var user = 1;  // Obviously, this is bad.
       var game = 1;  // Obviously, this is bad.
       var model = this.get('model');
@@ -9,7 +9,7 @@ App.MovesNewController = Ember.ObjectController.extend({
       model.set('game', game);
       model.save().then(
         function (saved_model) {
-          _this.transitionToRoute('move', saved_model.get('id'));
+          self.transitionToRoute('move', saved_model.get('id'));
         },
         function (reason) {
           // in case of failure:
