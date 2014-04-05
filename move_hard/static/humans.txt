@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Kit La Touche -- Developer -- @wlonk
 
 # THANKS
 
-    <name>
+    Austin Bookheimer -- @AugustAlso
 
 # TECHNOLOGY COLOPHON
 
