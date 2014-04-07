@@ -1,4 +1,4 @@
-App.MovesNewRoute = Ember.Route.extend({
+App.MovesNewRoute = App.RestrictedRoute.extend({
   model: function (params) {
     return this.store.createRecord('move');;
   },

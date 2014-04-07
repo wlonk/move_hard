@@ -1,4 +1,9 @@
-<h1>All the moves!</h1>
+<h1>
+  All the moves!
+  {{#if auth.hasValidToken}}
+    {{#link-to 'moves.new' class="btn btn-primary"}}new{{/link-to}}
+  {{/if}}
+</h1>
 
 <ul>
   {{#each move in controller}}
@@ -9,5 +14,3 @@
     </li>
   {{/each}}
 </ul>
-
-{{#link-to 'moves.new' class="btn btn-primary"}}new{{/link-to}}

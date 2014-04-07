@@ -5,6 +5,7 @@ from rest_framework import (
     views,
     viewsets,
 )
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 
 from .models import (
@@ -18,6 +19,8 @@ from .serializers import (
 
 
 class AuthenticateView(views.APIView):
+    permission_classes = (AllowAny,)
+
     def post(self, request):
         serializer = UserWithTokenSerializer(data=request.DATA)
         if serializer.is_valid():

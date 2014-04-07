@@ -38,3 +38,9 @@ $.ajaxSetup({
     }
   }
 });
+
+$(document).ajaxError(function (event, request, settings) {
+  if (request.status == 401) {
+    App.__container__.lookup('controller:application').transitionToRoute('auth');
+  }
+});
