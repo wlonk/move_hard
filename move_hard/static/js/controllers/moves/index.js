@@ -1,1 +1,3 @@
-App.MovesIndexController = Ember.ArrayController.extend();
+App.MovesIndexController = Ember.ArrayController.extend({
+  needs: ['auth']
+});

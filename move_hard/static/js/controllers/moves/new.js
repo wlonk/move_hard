@@ -1,4 +1,5 @@
 App.MovesNewController = Ember.ObjectController.extend({
+  needs: ['auth'],
   actions: {
     save: function () {
       var self = this;

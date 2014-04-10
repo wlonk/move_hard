@@ -64,9 +64,8 @@ App.AuthController = Ember.ObjectController.extend({
     login: function () {
       var self = this;
       var data = this.getProperties('username', 'password');
-      // @todo: The API version should be grabbed off of
-      // App.ApplicationAdapter, not hardcoded
-      $.post('/api/v1/api-token-auth/', data).then(
+      var url = self.store.adapterFor(self.store.adapter).buildStaticURL('api-token-auth/');
+      $.post(url, data).then(
         function (response) {
           self.reset();
           self.set('token', response.token);

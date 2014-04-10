@@ -5,7 +5,7 @@ Ember.TextField.reopen({
 });
 
 App.ApplicationController = Ember.Controller.extend({
-    needs: 'auth'
+    needs: ['auth']
 });
 
 function csrfSafeMethod(method) {

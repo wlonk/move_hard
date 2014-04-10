@@ -1,8 +1,10 @@
 <h1>
-  All the moves!
-  {{#if auth.hasValidToken}}
-    {{#link-to 'moves.new' class="btn btn-primary"}}new{{/link-to}}
-  {{/if}}
+  Moves
+  {{#with controllers.auth}}
+    {{#if hasValidToken}}
+      {{#link-to 'moves.new' class="btn btn-primary"}}new{{/link-to}}
+    {{/if}}
+  {{/with}}
 </h1>
 
 <ul>
