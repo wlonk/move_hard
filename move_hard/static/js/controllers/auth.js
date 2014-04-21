@@ -65,12 +65,13 @@ App.AuthController = Ember.ObjectController.extend({
       var self = this;
       var data = this.getProperties('username', 'password');
       var url = self.store.adapterFor(self.store.adapter).buildStaticURL('api-token-auth/');
+      var previousTransition = this.get('previousTransition') || 'index';
       $.post(url, data).then(
         function (response) {
           self.reset();
           self.set('token', response.token);
           self.set('user_id', response.user_id);
-          self.transitionToRoute('index');
+          self.transitionToRoute(previousTransition);
         },
         function (jqXHR, status, error) {
           self.set('errors', $.parseJSON(jqXHR.responseText));
