@@ -33,7 +33,6 @@ App.ApplicationRoute = Ember.Route.extend({
     logout: function () {
       this.controllerFor('auth').set('token', null);
       this.controllerFor('auth').set('user_id', null);
-      App.reset();  // This is causing an error on logout.
       this.transitionTo('index');
     }
   }

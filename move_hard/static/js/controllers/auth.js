@@ -5,18 +5,16 @@ App.AuthController = Ember.ObjectController.extend({
   token: null,
   errors: null,
   model: null,
+  previousTransition: null,
 
   reset: function () {
-    // Guard against the side-effects of App.reset()
-    if (!(this.isDestroying || this.isDestroyed)) {
-      this.setProperties({
-        username: null,
-        password: null,
-        user_id: null,
-        errors: null,
-        model: null
-      });
-    }
+    this.setProperties({
+      username: null,
+      password: null,
+      user_id: null,
+      errors: null,
+      model: null
+    });
   },
 
   hasValidToken: function () {
@@ -65,13 +63,18 @@ App.AuthController = Ember.ObjectController.extend({
       var self = this;
       var data = this.getProperties('username', 'password');
       var url = self.store.adapterFor(self.store.adapter).buildStaticURL('api-token-auth/');
-      var previousTransition = this.get('previousTransition') || 'index';
       $.post(url, data).then(
         function (response) {
           self.reset();
           self.set('token', response.token);
           self.set('user_id', response.user_id);
-          self.transitionToRoute(previousTransition);
+          var previousTransition = self.get('previousTransition');
+          self.set('previousTransition', null);
+          if (previousTransition) {
+            previousTransition.retry();
+          } else {
+            self.transitionToRoute('index');
+          }
         },
         function (jqXHR, status, error) {
           self.set('errors', $.parseJSON(jqXHR.responseText));
