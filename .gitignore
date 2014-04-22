@@ -1,4 +1,5 @@
 *.py[co]
+*.sublime-*
 .DS_Store
 .env
 assets/*
