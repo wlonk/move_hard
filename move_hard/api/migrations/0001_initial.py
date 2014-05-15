@@ -13,6 +13,7 @@ class Migration(SchemaMigration):
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('created', self.gf('django.db.models.fields.DateTimeField')(default=datetime.datetime.now)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=50)),
+            ('slug', self.gf('autoslug.fields.AutoSlugField')(unique=True, max_length=50, populate_from='name', unique_with=(), blank=True)),
             ('body', self.gf('django.db.models.fields.TextField')()),
             ('user', self.gf('django.db.models.fields.related.ForeignKey')(related_name='moves', to=orm['auth.User'])),
             ('game', self.gf('django.db.models.fields.related.ForeignKey')(related_name='moves', to=orm['api.Game'])),
@@ -23,6 +24,7 @@ class Migration(SchemaMigration):
         db.create_table(u'api_game', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=50)),
+            ('slug', self.gf('autoslug.fields.AutoSlugField')(unique=True, max_length=50, populate_from='name', unique_with=(), blank=True)),
         ))
         db.send_create_signal(u'api', ['Game'])
 
@@ -39,7 +41,8 @@ class Migration(SchemaMigration):
         u'api.game': {
             'Meta': {'object_name': 'Game'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})
+            'name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
+            'slug': ('autoslug.fields.AutoSlugField', [], {'unique': 'True', 'max_length': '50', 'populate_from': "'name'", 'unique_with': '()', 'blank': 'True'})
         },
         u'api.move': {
             'Meta': {'object_name': 'Move'},
@@ -48,6 +51,7 @@ class Migration(SchemaMigration):
             'game': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'moves'", 'to': u"orm['api.Game']"}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
+            'slug': ('autoslug.fields.AutoSlugField', [], {'unique': 'True', 'max_length': '50', 'populate_from': "'name'", 'unique_with': '()', 'blank': 'True'}),
             'user': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'moves'", 'to': u"orm['auth.User']"})
         },
         u'auth.group': {

@@ -4,12 +4,14 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.utils import timezone
 
+from autoslug import AutoSlugField
 from rest_framework.authtoken.models import Token
 
 
 class Move(models.Model):
     created = models.DateTimeField(default=timezone.now)
     name = models.CharField(max_length=50)
+    slug = AutoSlugField(populate_from='name', unique=True, blank=True)
     body = models.TextField()
     user = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='moves')
     game = models.ForeignKey('Game', related_name='moves')
@@ -20,6 +22,7 @@ class Move(models.Model):
 
 class Game(models.Model):
     name = models.CharField(max_length=50)
+    slug = AutoSlugField(populate_from='name', unique=True, blank=True)
 
     def __unicode__(self):
         return unicode(self.name)
