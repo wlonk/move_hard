@@ -66,8 +66,10 @@ App.AuthController = Ember.ObjectController.extend({
       $.post(url, data).then(
         function (response) {
           self.reset();
-          self.set('token', response.token);
-          self.set('user_id', response.user_id);
+          self.setProperties({
+            'token': response.token,
+            'user_id': response.user_id
+          });
           var previousTransition = self.get('previousTransition');
           self.set('previousTransition', null);
           if (previousTransition) {

@@ -35,7 +35,9 @@ class UsersViewSet(viewsets.ModelViewSet):
 
 class MovesViewSet(viewsets.ModelViewSet):
     model = Move
+    lookup_field = 'slug'
 
 
 class GamesViewSet(viewsets.ModelViewSet):
     model = Game
+    lookup_field = 'slug'

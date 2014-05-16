@@ -12,8 +12,9 @@
       <label for="body">Game</label>
       {{view Ember.Select
           class="form-control"
+          prompt="---"
           content=games
-          value=game
+          value=selectedGame
           optionValuePath="content.id"
           optionLabelPath="content.name"
       }}

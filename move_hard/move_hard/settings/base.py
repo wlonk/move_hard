@@ -152,6 +152,7 @@ PIPELINE_JS = {
             'js/vendor/modernizr.js',
             'js/vendor/jquery.js',
             'js/vendor/jquery.cookie.js',
+            'js/vendor/moment.js',
             'js/vendor/bootstrap.js',
             'js/vendor/Markdown.Converter.js',
             'js/vendor/Markdown.Sanitizer.js',

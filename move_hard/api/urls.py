@@ -21,5 +21,7 @@ urlpatterns = patterns('',  # NOQA
         AuthenticateView.as_view(),
         name='api-token-auth'
     ),
+    url(r'^api-auth/', include('rest_framework.urls',
+                               namespace='rest_framework')),
     url(r'^', include(router.urls)),
 )

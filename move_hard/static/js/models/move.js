@@ -1,9 +1,10 @@
 App.Move = DS.Model.extend({
   name: DS.attr('string'),
+  slug: DS.attr('string'),
   body: DS.attr('string'),
-  created: DS.attr(),
-  user: DS.attr(),
-  game: DS.attr(),
+  created: DS.attr(''),  // Dates are borked
+  user: DS.belongsTo('user'),
+  game: DS.belongsTo('game'),
 
   renderedContent: function () {
     var body = this.get('body');

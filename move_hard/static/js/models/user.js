@@ -1,5 +1,5 @@
 App.User = DS.Model.extend({
-    username: DS.attr(),
-    first_name: DS.attr(),
-    last_name: DS.attr()
+    username: DS.attr('string'),
+    first_name: DS.attr('string'),
+    last_name: DS.attr('string')
 });
