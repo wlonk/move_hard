@@ -3,7 +3,7 @@
 <ul>
   {{#each game in controller}}
     <li>
-      {{#link-to 'game' game}}
+      {{#link-to 'game' game.slug}}
         {{game.name}}
       {{/link-to}}
     </li>

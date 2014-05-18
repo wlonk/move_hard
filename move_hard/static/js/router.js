@@ -7,13 +7,13 @@ App.Router.map(function() {
   this.resource('moves', {path: '/moves'}, function () {
     this.route('new', {path: '/new'});
   });
-  this.resource('move', {path: '/moves/:move_id'});
+  this.resource('move', {path: '/moves/:move_slug'});
 
   this.resource('games', {path: '/games'});
-  this.resource('game', {path: '/games/:game_id'});
+  this.resource('game', {path: '/games/:game_slug'});
 
   this.resource('users', {path: '/users'});
-  this.resource('user', {path: '/users/:user_id'});
+  this.resource('user', {path: '/users/:user_username'});
 
 });
 

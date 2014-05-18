@@ -31,13 +31,16 @@ class AuthenticateView(views.APIView):
 class UsersViewSet(viewsets.ModelViewSet):
     model = get_user_model()
     serializer_class = UserSerializer
+    filter_fields = ('username',)
 
 
 class MovesViewSet(viewsets.ModelViewSet):
     model = Move
     lookup_field = 'slug'
+    filter_fields = ('slug',)
 
 
 class GamesViewSet(viewsets.ModelViewSet):
     model = Game
     lookup_field = 'slug'
+    filter_fields = ('slug',)

@@ -3,7 +3,7 @@
 <ul>
   {{#each user in controller}}
     <li>
-      {{#link-to 'user' user}}
+      {{#link-to 'user' user.username}}
         {{user.username}}
       {{/link-to}}
     </li>

@@ -10,7 +10,7 @@
 <ul>
   {{#each move in controller}}
     <li>
-      {{#link-to 'move' move}}
+      {{#link-to 'move' move.slug}}
         {{move.name}}
       {{/link-to}}
     </li>
