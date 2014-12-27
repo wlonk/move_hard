@@ -3,10 +3,17 @@ from django.contrib.auth import authenticate, get_user_model
 from rest_framework import serializers
 from rest_framework.authtoken.models import Token
 
+from .models import (
+    Game,
+    Move,
+)
+
+User = get_user_model()
+
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-        model = get_user_model()
+        model = User
         fields = (
             'id',
             'username',
@@ -19,8 +26,8 @@ class UserWithTokenSerializer(serializers.Serializer):
     username = serializers.CharField(write_only=True)
     password = serializers.CharField(write_only=True)
 
-    token = serializers.SerializerMethodField('get_token')
-    user_id = serializers.SerializerMethodField('get_user_id')
+    token = serializers.SerializerMethodField()
+    user_id = serializers.SerializerMethodField()
 
     def get_token(self, obj):
         token, created = Token.objects.get_or_create(user=obj['user'])
@@ -49,3 +56,13 @@ class UserWithTokenSerializer(serializers.Serializer):
             raise serializers.ValidationError(
                 'Must include "username" and "password"'
             )
+
+
+class MoveSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Move
+
+
+class GameSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Game

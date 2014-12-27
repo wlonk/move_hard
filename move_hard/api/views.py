@@ -1,5 +1,4 @@
 from django.contrib.auth import get_user_model
-
 from rest_framework import (
     status,
     views,
@@ -15,7 +14,12 @@ from .models import (
 from .serializers import (
     UserSerializer,
     UserWithTokenSerializer,
+    MoveSerializer,
+    GameSerializer,
 )
+
+
+User = get_user_model()
 
 
 class AuthenticateView(views.APIView):
@@ -29,18 +33,20 @@ class AuthenticateView(views.APIView):
 
 
 class UsersViewSet(viewsets.ModelViewSet):
-    model = get_user_model()
+    queryset = User.objects.all()
     serializer_class = UserSerializer
     filter_fields = ('username',)
 
 
 class MovesViewSet(viewsets.ModelViewSet):
-    model = Move
+    queryset = Move.objects.all()
+    serializer_class = MoveSerializer
     lookup_field = 'slug'
     filter_fields = ('slug',)
 
 
 class GamesViewSet(viewsets.ModelViewSet):
-    model = Game
+    queryset = Game.objects.all()
+    serializer_class = GameSerializer
     lookup_field = 'slug'
     filter_fields = ('slug',)

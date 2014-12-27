@@ -70,9 +70,7 @@ DJANGO_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    'south',
-    'pipeline',
-    'rest_framework',
+    'pipeline', 'rest_framework',
     'rest_framework.authtoken',
 )
 

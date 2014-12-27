@@ -1,4 +1,4 @@
-{% load compressed %}
+{% load pipeline %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -11,7 +11,7 @@
     <meta name="description" content="Move Harder">
     <meta name="viewport" content="width=device-width">
 
-    {% compressed_css 'all' %}
+    {% stylesheet 'all' %}
 
   </head>
   <body>
@@ -19,9 +19,9 @@
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-  {% compressed_js 'libraries' %}
-  {% compressed_js 'templates' %}
-  {% compressed_js 'application' %}
+  {% javascript 'libraries' %}
+  {% javascript 'templates' %}
+  {% javascript 'application' %}
 
   </body>
 </html>
